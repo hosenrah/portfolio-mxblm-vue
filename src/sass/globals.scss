@@ -1,0 +1,328 @@
+@import 'general/typography';
+
+@import 'themes/dark';
+@import 'themes/light';
+
+
+$base-font: 16px;
+$header-height: 5rem;
+
+
+body {
+  font-size: $base-font;
+  background-color: $black;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  animation: fadeInAnimation ease 1s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+} 
+
+.dark {
+  @include dark;
+}
+
+.light {
+  @include light;
+}
+
+.section-start, .section-text, .section-text-left, .section-text-right {
+  height: auto;
+  padding: 0 12vw 0 12vw;
+}
+
+.header{
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 6vh;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  mix-blend-mode: difference;
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    a{
+      display: block;
+      transition: all .5s;
+      font-size: 1.25rem;
+      color: $grey;
+      text-decoration: none;
+      &:hover{
+        color: $white;
+        transition: all .5s;
+      }
+      &:active{
+        color: $white;
+      }
+      &.logo{
+      font-size: 1.5rem;
+      color: $white;
+      mix-blend-mode: difference;
+       &:hover{
+         filter:blur(2px);
+         color: $yellow;
+       }
+      }
+      &:first-child{
+        margin-left: 4vw;
+      }
+      &:last-child{
+        margin-right: 4vw;
+      }
+    }
+  }
+}
+
+.footer{
+  height: 8rem;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  a {
+      display: block;
+      transition: all .5s;
+      font-size: 1.25rem;
+      color: $grey;
+      text-decoration: none;
+      &:hover{
+        color: $white;
+        transition: all .5s;
+      }
+  }
+}
+
+.link {
+  color: $white;
+  text-decoration: none;
+  border-bottom: solid 2px transparent;
+  transition: all .5s;
+  &:hover {
+    border-bottom: solid 2px $pink;
+    transition: all .5s;
+  }
+}
+
+.section-start__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.background-image {
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+  animation: imageSlider 3s infinite;
+  background-repeat: no-repeat;
+}
+
+@keyframes imageSlider { 
+  0% { 
+    background: url('https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  } 
+  25% {
+    background: url('https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+  }
+  75% { 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pug_-_1_year_Old.jpg/1280px-Pug_-_1_year_Old.jpg');
+  } 
+  100% { 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pug_-_1_year_Old.jpg/1280px-Pug_-_1_year_Old.jpg');
+  } 
+} 
+
+.image {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-image {
+  height: 100%;
+  opacity: 0;
+  margin-left: 12vw;
+}
+
+.section-text {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  transition: opacity .4s,filter .4s,-webkit-filter .4s;
+}
+
+.section-intro {
+  padding-top: 8rem;
+}
+
+.section-cover {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-work {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 12vw;
+  padding-right: 12vw;
+} 
+
+.project-teaser {
+  height: 25vh;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  
+  &:hover .project-label {
+    opacity: 1;
+    transition: all .5s;
+  }
+  &:hover ::after {
+    opacity: 1;
+    transition: all .5s;
+  }
+}
+
+video {
+  height: 75vh;
+  width: 100%;
+  display: block;
+  position: relative;
+  object-fit: cover;
+}
+
+.section-text-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .text-left {
+    width: calc(50% - 2.5rem);
+    display: flex;
+    height: auto;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+  }
+  .square-right {
+    width: calc(50% - 2.5rem);
+    display: flex;
+    height: auto;
+    margin-bottom: 5rem;
+    
+  }
+  .image-right {
+    height: 100%;
+    width: 100%;
+    display: block;
+    }
+}
+
+.section-text-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .text-right {
+    width: calc(50% - 2.5rem);
+    display: flex;
+    height: auto;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .square-left {
+    width: calc(50% - 2.5rem);
+    display: flex;
+    height: auto;
+    margin-bottom: 5rem;
+    padding-right: 5%;
+    
+  }
+  .image-left {
+    height: 100%;
+    width: 100%;
+    display: block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  .section-text-left {
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: space-between;
+  
+    .text-left {
+      width: 100%;
+      min-height: 20vh;
+      margin-bottom: 3rem;
+    }
+    .square-right {
+      width: 100%;
+      height: auto; 
+    }
+    .image-right {
+      height: 100%;
+      width: 76vw;
+      }
+    }
+
+  .section-text-right {
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: space-between;
+    
+    .text-right {
+      width: 100%;
+      min-height: 20vh;
+      margin-bottom: 5rem;
+      }
+    .square-left {
+      width: 100%;
+      height: auto;
+      margin-bottom: 3rem;
+ 
+      }
+    .image-left {
+      height: 100%;
+      width: 76vw;
+        }
+      }
+}
+@media only screen and (max-width: 700px) {
+  .background-image {
+    width: 76vw;
+    position: absolute;
+    top: 50vh;
+    transform: translateY(calc(-50% - 48px));
+  }
+  video {
+    height: 50vh;
+  }
+}

@@ -1,0 +1,33 @@
+@import '../general/colors';
+
+@mixin dark {
+  background-color: $black;
+  color: $white;
+  -webkit-text-stroke-color: $white;
+
+  .hl1 {
+    color: $white;
+  }
+  .hl2 {
+    color: $blue;
+  }
+  .hl3 {
+    color: $white;
+  }
+  .copy {
+    color: $grey;
+  }
+  .link {
+    color: $white;
+    &:hover {
+      border-bottom: solid 2px $white;
+    }
+  }
+  .footer {
+    a{
+      &:hover{
+      color: $white;
+      }
+    }
+  }
+}

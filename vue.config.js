@@ -1,6 +1,13 @@
 module.exports = {
   css: {
-    sourceMap: true
+    sourceMap: true,
+    loaderOptions: {
+      sass: {
+        prependData: `
+          @import "@/sass/globals.scss";
+        `
+      }
+    }
   },
 
   assetsDir: 'assets'

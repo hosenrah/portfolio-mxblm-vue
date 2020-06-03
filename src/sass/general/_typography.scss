@@ -1,0 +1,117 @@
+@import '../general/colors';
+
+@mixin fontface {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  @include fontface;
+}
+
+.hlintro {
+  font-size: 18vw;
+  font-weight: 800;
+  letter-spacing: 50px;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translateY(-50%) translateX(calc(-50% + 20px));
+  text-align: center;
+}
+
+.hl1 {
+  font-weight: 600;
+  font-size: 12vmin;
+  line-height: 1.25em;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  width: 80%;
+  &::selection {
+    background-color: $yellow;
+  } 
+}
+
+.hl2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  &::selection {
+    background-color: $yellow;
+  } 
+}
+
+.hl3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  &::selection {
+    background-color: $yellow;
+  } 
+}
+
+.copy {
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  &::selection {
+    background-color: $yellow;
+  } 
+}
+
+.quote {
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  &::selection {
+    background-color: $yellow;
+  } 
+}
+
+.project-label {
+  font-weight: 600;
+  font-size: 6vmin;
+  opacity: 0.4;
+
+  &::after {
+    content: "\2B62";
+    margin-left: 0.5rem;
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hlintro {
+    font-size: 18vw;
+    font-weight: 800;
+    letter-spacing: 15px;
+  
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+
+    transform: translateY(calc(-50% - 48px)) translateX(calc(-50% + 6px));
+
+  }
+  .copy {
+    font-size: 1.125rem;
+  }
+  .project-label {
+    opacity: 1;
+  
+    &::after {
+      opacity: 1;
+    }
+  }
+}
