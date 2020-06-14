@@ -18,6 +18,10 @@
           src="https://images.unsplash.com/photo-1590117051772-76cb36cf9007?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3273&q=80"
         />
       </section>
+      <section class="footer light">
+        <h3 class="hl3" style="margin-bottom: 0;">© 2020</h3>
+        <a href="/impressum">Impressum</a>
+      </section>
     </main>
 </template>
 
