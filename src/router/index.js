@@ -21,7 +21,7 @@ const routes = [
   {
     path: '/work',
     name: 'Work',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Impressum.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/Work.vue'),
   },
   {
     path: '/impressum',
