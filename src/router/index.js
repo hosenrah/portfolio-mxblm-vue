@@ -28,6 +28,11 @@ const routes = [
     name: 'Impressum',
     component: () => import(/* webpackChunkName: "about" */ '../views/Impressum.vue'),
   },
+  {
+    path: '/project1',
+    name: 'Project1',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Project1.vue'),
+  },
 ];
 
 const router = new VueRouter({

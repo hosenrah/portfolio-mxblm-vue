@@ -40,10 +40,6 @@
           Personenbeziehbarkeit auszuschließen.
         </p>
       </section>
-      <section class="footer dark">
-        <h3 class="hl3" style="margin-bottom: 0;">© 2020</h3>
-        <a href="/impressum">Impressum</a>
-      </section>
   </main>
 </template>
 

@@ -5,30 +5,26 @@
     <h1 class="hl1">Get a taste of what I love to do</h1>
    </section>
     <section class="section-work dark">
-      <a href="./project-template.html" class="project-teaser dark">
+      <router-link class="project-teaser dark" to="/project1">
         <div class="project-label">The Design System Evolution
         </div>
         <p class="copy">Mercedes-Benz</p>
-      </a>
-      <a href="./project-template.html" class="project-teaser dark">
+      </router-link>
+      <router-link class="project-teaser dark" to="/project1">
         <div class="project-label">BraPro Mobile Game
         </div>
         <p class="copy">MEY</p>
-      </a>
-      <a href="./project-template.html" class="project-teaser dark">
+      </router-link>
+      <router-link class="project-teaser dark" to="/project1">
         <div class="project-label">Launch Campaign
         </div>
         <p class="copy">KIA</p>
-      </a>
-      <a href="./project-template.html" class="project-teaser dark">
+      </router-link>
+      <router-link class="project-teaser dark" to="/project1">
         <div class="project-label">Travel Plattform
         </div>
         <p class="copy">ITS</p>
-      </a>
-    </section>
-    <section class="footer dark">
-      <h3 class="hl3" style="margin-bottom: 0;">© 2020</h3>
-      <a href="/impressum">Impressum</a>
+      </router-link>
     </section>
   </main>
 </template>

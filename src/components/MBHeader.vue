@@ -2,7 +2,7 @@
   <header class="mb-header dark">
     <nav class="mb-header__nav mb-header-nav">
     <router-link class="mb-header-nav__link" to="/work">Work</router-link>
-    <router-link class="mb-header-nav__logo" to="/">MB.</router-link>
+    <router-link class="mb-header-nav__logo" to="/">MB</router-link>
     <router-link class="mb-header-nav__link" to="/about">About</router-link>
     </nav>
   </header>
@@ -29,7 +29,7 @@ export default {
 
 
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 3px;
     text-decoration: none;
 

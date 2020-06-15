@@ -1,6 +1,10 @@
 <template>
-  <div class="home">
-  </div>
+  <main class="section-start dark">
+      <div class="section-start__content">
+        <div class="background-image"></div>
+        <div class="hlintro slideIn">MXBLM</div>
+      </div>
+    </main>
 </template>
 
 <script>
