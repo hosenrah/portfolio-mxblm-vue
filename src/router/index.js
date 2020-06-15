@@ -37,6 +37,10 @@ const routes = [
 
 const router = new VueRouter({
   routes,
+  scrollBehavior() {
+    const position = { x: 0, y: 0 };
+    return position;
+  },
 });
 
 export default router;
