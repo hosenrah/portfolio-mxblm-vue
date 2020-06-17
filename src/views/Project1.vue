@@ -2,12 +2,11 @@
   <main class="section-top dark" style="padding:0;">
   <section class="section-cover">
   <div class="video">
-    <video src="https://d2kdkox9jtuwgl.cloudfront.net/cases/Masterclass/videos/browseLike.mp4" loop="loop" playsinline="" autoplay="autoplay"></video>
+    <video src="https://d2kdkox9jtuwgl.cloudfront.net/cases/Masterclass/videos/browseLike.mp4" loop="loop" autoplay="autoplay"></video>
   </div>
   </section>
     <section class="section-text dark">
-      <h2 class="hl2">Mercedes-Benz</h2>
-      <h1 class="hl1">How to fix a design system</h1>
+      <h1 class="hl1">Design System Evolution</h1>
       <h3 class="hl3">Task</h3>
       <p class="copy">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
