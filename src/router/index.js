@@ -18,10 +18,29 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
+  {
+    path: '/work',
+    name: 'Work',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Work.vue'),
+  },
+  {
+    path: '/impressum',
+    name: 'Impressum',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Impressum.vue'),
+  },
+  {
+    path: '/project1',
+    name: 'Project1',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Project1.vue'),
+  },
 ];
 
 const router = new VueRouter({
   routes,
+  scrollBehavior() {
+    const position = { x: 0, y: 0 };
+    return position;
+  },
 });
 
 export default router;
