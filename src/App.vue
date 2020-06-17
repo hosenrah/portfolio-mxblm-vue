@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <MBHeader/>
-    <transition name="fade" mode="out-in">
+    <vue-page-transition name="fade-in-right">
       <router-view/>
-    </transition>
+    </vue-page-transition>
     <MBFooter/>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
 
   .fade-enter-active,
   .fade-leave-active {
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     transition-property: opacity;
     transition-timing-function: ease;
   }
