@@ -18,15 +18,18 @@ export default {
 
 .mb-footer{
   height: $footer-height;
+  background-color: transparent;
   margin-left: 4vw;
   margin-right: 4vw;
   display: flex;
   align-items: center;
   justify-content: space-between ;
+  mix-blend-mode: difference;
 
   &__hl {
     font-weight: 600;
     font-size: 1.25rem;
+    color: $darkgrey;
     letter-spacing: 0.5px;
     margin-top: 0;
     margin-bottom: 0;

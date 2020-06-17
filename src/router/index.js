@@ -33,6 +33,11 @@ const routes = [
     name: 'Project1',
     component: () => import('../views/Project1.vue'),
   },
+  {
+    path: '/project2',
+    name: 'Project2',
+    component: () => import('../views/Project2.vue'),
+  },
 ];
 
 const router = new VueRouter({

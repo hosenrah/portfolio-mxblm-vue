@@ -10,7 +10,7 @@
         </div>
         <p class="copy">Mercedes-Benz</p>
       </router-link>
-      <router-link class="project-teaser dark" to="/project1">
+      <router-link class="project-teaser dark" to="/project2">
         <div class="project-label">BraPro Mobile Game
         </div>
         <p class="copy">MEY</p>
