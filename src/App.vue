@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <MBHeader/>
-    <vue-page-transition name="fade-in-right">
+    <vue-page-transition name="fade-in-up">
       <router-view/>
     </vue-page-transition>
     <MBFooter/>
