@@ -55,7 +55,7 @@
 
 <script>
 export default {
-  name: 'Project1',
+  name: 'DesignSystemEvolution',
   props: {
     msg: String,
   },

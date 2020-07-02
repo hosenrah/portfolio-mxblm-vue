@@ -31,13 +31,23 @@ const routes = [
   {
     path: '/project1',
     name: 'Project1',
-    component: () => import('../views/Project1.vue'),
+    component: () => import('../views/projects/DesignSystemEvolution.vue'),
   },
   {
     path: '/project2',
     name: 'Project2',
-    component: () => import('../views/Project2.vue'),
+    component: () => import('../views/projects/BraProMobileGame.vue'),
   },
+  // {
+  //   path: '/project3',
+  //   name: 'Project3',
+  //   component: () => import('../views/Project3.vue'),
+  // },
+  // {
+  //   path: '/project4',
+  //   name: 'Project4',
+  //   component: () => import('../views/Project4.vue'),
+  // },
 ];
 
 const router = new VueRouter({
