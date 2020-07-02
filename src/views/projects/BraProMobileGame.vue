@@ -48,7 +48,7 @@
 
 <script>
 export default {
-  name: 'Project2',
+  name: 'BraProMobileGame',
   props: {
     msg: String,
   },
