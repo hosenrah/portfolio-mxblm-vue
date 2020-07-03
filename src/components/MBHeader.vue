@@ -2,7 +2,7 @@
   <header class="mb-header dark">
     <nav class="mb-header__nav mb-header-nav">
     <router-link class="mb-header-nav__link" to="/work">Work</router-link>
-    <router-link class="mb-header-nav__logo" to="/">MB.</router-link>
+    <router-link class="mb-header-nav__logo" to="/">MB</router-link>
     <router-link class="mb-header-nav__link" to="/about">About</router-link>
     </nav>
   </header>
@@ -35,7 +35,7 @@ export default {
 
     &:hover{
       filter:blur(2px);
-      color: $yellow;
+      color: $blue;
     }
   }
 

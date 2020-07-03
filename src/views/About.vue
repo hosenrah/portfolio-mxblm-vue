@@ -2,10 +2,10 @@
   <main class="section-intro dark">
       <section class="section-text dark">
         <h2 class="hl2">About me</h2>
-        <h1 class="hl1">I'm Max Blum. Product Designer from Germany</h1>
+        <h1 class="hl1">Product Designer from Germany</h1>
         <p class="copy">
           Hello dear world wide web.
-          I love to design digital things. Mostly simple, with a clear
+          I'm Max Blum - I love to design digital things. Mostly simple, with a clear
           hierarchy and with a little touch of (e)motion.
           <br>I offer 10 years of professional experience in the design of
           user interfaces for digital applications and campaigns.

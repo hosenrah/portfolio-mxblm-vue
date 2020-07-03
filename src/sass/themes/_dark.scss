@@ -9,7 +9,7 @@
     color: $white;
   }
   .hl2 {
-    color: $yellow;
+    color: $blue;
   }
   .hl3 {
     color: $white;
@@ -20,13 +20,13 @@
   .link {
     color: $white;
     &:hover {
-      border-bottom: solid 2px $yellow;
+      border-bottom: solid 2px $blue;
     }
   }
   .footer {
     a{
       &:hover{
-      color: $yellow;
+      color: $blue;
       }
     }
   }
