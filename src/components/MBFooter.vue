@@ -1,8 +1,8 @@
 <template>
-  <section class="mb-footer dark">
-        <h3 class="hl3 mb-footer__hl">© 2020</h3>
-        <router-link class="mb-footer__link" to="/impressum">Impressum</router-link>
-      </section>
+  <section class="mb-footer">
+    <h3 class="hl3 mb-footer__hl">© 2020</h3>
+    <router-link class="mb-footer__link" to="/impressum">Impressum</router-link>
+  </section>
 </template>
 
 <script>
@@ -18,13 +18,11 @@ export default {
 
 .mb-footer{
   height: $footer-height;
-  background-color: transparent;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  padding: 0 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between ;
-  mix-blend-mode: difference;
+  // mix-blend-mode: difference;
 
   &__hl {
     font-weight: 600;
