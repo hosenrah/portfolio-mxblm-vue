@@ -1,6 +1,7 @@
 <template>
-  <main class="section-intro dark">
-      <section class="section-text dark">
+  <main class="section-intro">
+      <section class="section-text">
+        <h2 class="hl2">About me</h2>
         <h1 class="hl1">Product Designer from Germany</h1>
         <p class="copy">
           Hello dear world wide web.
