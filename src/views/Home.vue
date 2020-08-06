@@ -1,13 +1,12 @@
 <template>
-  <main class="section-home dark">
-      <div class="section-home__content">
-        <div class="hlintro slideIn">MXBLM</div>
-      </div>
-    </main>
+<main class="section-home">
+    <div class="section-home__content">
+      <div class="hlintro slideIn">MXBLM</div>
+    </div>
+  </main>
 </template>
 
 <script>
-
 export default {
   name: 'Home',
 };

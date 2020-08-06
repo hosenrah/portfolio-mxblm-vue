@@ -1,6 +1,6 @@
 <template>
-  <main class="section-intro dark">
-      <section class="section-text dark">
+  <main class="section-intro">
+      <section class="section-text">
         <h1 class="hl1">Impressum</h1>
         <p class="copy">
           Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (“Google”).
