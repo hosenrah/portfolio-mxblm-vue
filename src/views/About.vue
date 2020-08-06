@@ -3,10 +3,10 @@
       <section class="section-text dark">
         <h1 class="hl1">Product Designer from Germany</h1>
         <p class="copy">
-          Hello dear world wide web.
-          I'm Max Blum - I love to design digital things. Mostly simple, with a clear
+          Hello dear world wide web. 👋🏻<br><br>
+          I'm Max Blum - I love to design digital products and brands. Mostly simple, with a clear
           hierarchy and with a little touch of (e)motion.
-          <br>I offer 10 years of professional experience in the design of
+          <br><br>I offer 10 years of professional experience in the design of
           user interfaces for digital applications and campaigns.
           I am conceptually strong and responsive in my mind. My passion for
           outstanding design drives me, photography and typography <a class="link" target="_blank" href="http://mxblm.tumblr.com">inspire</a> me.
@@ -16,6 +16,9 @@
           src="../assets/images/me-full.jpg"/>
       </section>
     <section class="section-text-left dark">
+      <span class="text-left">
+        <h2 class="hl2">ABOUT ME</h2>
+      </span>
       <span class="text-left">
         <h3 class="hl3">My history</h3>
         <p class="copy">
@@ -29,7 +32,7 @@
         </p>
       </span>
       <span class="text-left">
-        <h3 class="hl3">My skills</h3>
+        <h3 class="hl3">My capabilities</h3>
         <p class="copy">
         &rarr; Art Direction<br>
         &rarr; UI/UX Design<br>
