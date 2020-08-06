@@ -26,7 +26,7 @@ body {
 .hl1 {
   font-weight: 600;
   font-size: 12vmin;
-  line-height: 1.25em;
+  line-height: calc(1ex / 0.48);
   margin-top: 0;
   margin-bottom: 3rem;
   width: 80%;
@@ -58,11 +58,11 @@ body {
 }
 
 .copy {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
   letter-spacing: 0.3px;
-  line-height: 1.7rem;
+  line-height: calc(1ex / 0.32);
   margin-top: 0;
   margin-bottom: 4rem;
   max-width: 800px;
@@ -75,6 +75,7 @@ body {
   font-weight: 600;
   font-size: 1.5rem;
   letter-spacing: 0.5px;
+  line-height: calc(1ex / 0.32);
   margin-top: 0;
   margin-bottom: 0;
   &::selection {
@@ -85,7 +86,7 @@ body {
 .project-label {
   font-weight: 600;
   font-size: 6vmin;
-  opacity: 0.4;
+  opacity: 0.5;
 
   &::after {
     content: "\2B62";

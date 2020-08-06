@@ -2,7 +2,7 @@
   <header class="mb-header dark">
     <nav class="mb-header__nav mb-header-nav">
     <router-link class="mb-header-nav__link" to="/work">Work</router-link>
-    <router-link class="mb-header-nav__logo" to="/">MB</router-link>
+    <router-link class="mb-header-nav__logo" to="/">MXBLM</router-link>
     <router-link class="mb-header-nav__link" to="/about">About</router-link>
     </nav>
   </header>
@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 .mb-header-nav {
   font-size: 1.25rem;
+  letter-spacing: 0.5px;
   transition: all .5s;
 
   &__logo {
@@ -30,7 +31,7 @@ export default {
 
     font-weight: 800;
     font-size: 1.5rem;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-decoration: none;
 
     &:hover{

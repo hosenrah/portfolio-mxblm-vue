@@ -10,5 +10,5 @@ module.exports = {
     }
   },
 
-  assetsDir: 'assets'
+  assetsDir: 'portfolio/assets'
 }

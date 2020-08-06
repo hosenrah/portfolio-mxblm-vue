@@ -1,7 +1,6 @@
 <template>
   <main class="section-intro dark">
     <section class="section-text dark">
-    <h2 class="hl2">My work</h2>
     <h1 class="hl1">Get a taste of what I love to do</h1>
    </section>
     <section class="section-work dark">
