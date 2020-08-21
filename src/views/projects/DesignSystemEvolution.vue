@@ -7,22 +7,35 @@
   </section>
     <section class="section-text dark">
       <h1 class="hl1">Design System Evolution</h1>
-      <h3 class="hl3">Task</h3>
-      <p class="copy">
+    </section>
+    <section class="section-text-left dark">
+      <span class="text-left">
+        <h2 class="hl2">Task</h2>
+        <p class="copy">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
       </p>
-      <img class="image "
-            src="https://images.prismic.io/wolffolins/5582848f-7d23-43cf-86b2-bb3065242997_WO_Faber_08_ColophonCloseups.jpg"
-          />
-    </section>
+      </span>
+      <span class="text-right">
+        <h2 class="hl2">Role</h2>
+        <p class="copy">
+          Lead Product Designer
+        </p>
+      </span>
+      <span class="text-right">
+        <h2 class="hl2">Year</h2>
+        <p class="copy">
+          2019
+        </p>
+      </span>
+      </section>
     <section class="section-text dark" style="padding-top: 0;">
       <img class="image"
             src="https://images.prismic.io/wolffolins/5582848f-7d23-43cf-86b2-bb3065242997_WO_Faber_08_ColophonCloseups.jpg"
           />
     </section>
-    <section class="section-text-left dark">
+    <section class="section-text-left dark" style="padding-top: 0;">
       <span class="text-left">
       <p class="quote">
         “We are very happy with the new brand. It is vibrant,
@@ -49,6 +62,12 @@
         Product Designer
         </p>
     </span>
+    </section>
+    <section class="section-next light">
+      <router-link class="project-next light" :to="{ name: 'Project2' }">
+        <div class="project-label">Next project
+        </div>
+      </router-link>
     </section>
   </main>
 </template>

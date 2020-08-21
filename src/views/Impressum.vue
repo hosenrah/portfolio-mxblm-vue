@@ -2,6 +2,8 @@
   <main class="section-intro">
       <section class="section-text">
         <h1 class="hl1">Impressum</h1>
+        </section>
+        <section class="section-text" style="padding-top: 0;">
         <p class="copy">
           Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (“Google”).
           Google Analytics verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer gespeichert

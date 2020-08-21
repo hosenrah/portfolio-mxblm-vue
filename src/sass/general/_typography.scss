@@ -12,6 +12,9 @@ body {
   font-size: 18vw;
   font-weight: 800;
   letter-spacing: 50px;
+  color: $white;
+  opacity: .2;
+  -webkit-text-stroke-color: $white;
 
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
@@ -21,53 +24,55 @@ body {
   left: 50vw;
   transform: translateY(-50%) translateX(calc(-50% + 20px));
   text-align: center;
+  z-index: 1;
 }
 
 .hl1 {
   font-weight: 600;
-  font-size: 12vmin;
+  font-size: 16vmin;
   line-height: calc(1ex / 0.48);
   margin-top: 0;
-  margin-bottom: 3rem;
-  width: 80%;
+  margin-bottom: 0;
+  width: 88%;
   &::selection {
-    background-color: $yellow;
+    background-color: $red;
   } 
 }
 
 .hl2 {
   font-weight: 600;
   font-size: 1.25rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.75px;
   margin-top: 0;
   margin-bottom: 0.5rem;
   &::selection {
-    background-color: $yellow;
+    background-color: $red;
   } 
 }
 
 .hl3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.25rem;
   letter-spacing: 0.5px;
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
+
   &::selection {
-    background-color: $yellow;
+    background-color: $red;
   } 
 }
 
 .copy {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.5px;
   line-height: calc(1ex / 0.32);
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
   max-width: 800px;
   &::selection {
-    background-color: $yellow;
+    background-color: $red;
   } 
 }
 
@@ -79,7 +84,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   &::selection {
-    background-color: $yellow;
+    background-color: $red;
   } 
 }
 

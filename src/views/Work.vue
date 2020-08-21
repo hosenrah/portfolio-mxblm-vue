@@ -1,26 +1,25 @@
 <template>
   <main class="section-intro">
     <section class="section-text">
-    <h2 class="hl2">My work</h2>
-    <h1 class="hl1">Get a taste of what I love to do</h1>
+    <h1 class="hl1">Get an idea of what I do</h1>
    </section>
     <section class="section-work">
-      <router-link class="project-teaser" :to="{ name: 'Project1' }">
-        <div class="project-label">The Design System Evolution
+      <router-link class="project-teaser dark" :to="{ name: 'Project1' }">
+        <div class="project-label">Design System Evolution
         </div>
         <p class="copy">Mercedes-Benz</p>
       </router-link>
-      <router-link class="project-teaser" :to="{ name: 'Project2' }">
+      <router-link class="project-teaser dark" :to="{ name: 'Project2' }">
         <div class="project-label">BraPro Mobile Game
         </div>
         <p class="copy">MEY</p>
       </router-link>
-      <router-link class="project-teaser" :to="{ name: 'Project3' }">
+      <router-link class="project-teaser dark" :to="{ name: 'Project3' }">
         <div class="project-label">Launch Campaign
         </div>
         <p class="copy">KIA</p>
       </router-link>
-      <router-link class="project-teaser" :to="{ name: 'Project4' }">
+      <router-link class="project-teaser dark" :to="{ name: 'Project4' }">
         <div class="project-label">Travel Plattform
         </div>
         <p class="copy">ITS</p>
@@ -37,4 +36,10 @@ export default {
 </script>
 
 <style lang="scss">
+
+.project-image {
+  width: 100%;
+  height: 100%;
+}
+
 </style>

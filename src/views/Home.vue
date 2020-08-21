@@ -1,8 +1,12 @@
 <template>
-<main class="section-home">
+  <main class="section-home">
     <div class="section-home__content">
-      <div class="hlintro slideIn">MXBLM</div>
+      <div class="hlintro">MXBLM</div>
     </div>
+    <section class="section-video">
+    <video class="video-bg" src="../assets/videos/bg-loop.mp4"
+    loop="loop" autoplay="autoplay"></video>
+  </section>
   </main>
 </template>
 
@@ -24,6 +28,15 @@ export default {
       width: 100%;
       height: calc(100vh - 128px);
     }
+  }
+
+  .video-bg {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
 </style>

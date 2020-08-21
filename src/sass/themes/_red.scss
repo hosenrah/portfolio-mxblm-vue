@@ -1,0 +1,6 @@
+@import '../general/colors';
+
+@mixin red {
+  background-color: $red;
+  color: $white;
+}
