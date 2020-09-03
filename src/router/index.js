@@ -39,6 +39,11 @@ const routes = [
     name: 'Project2',
     component: () => import('../views/projects/BraProMobileGame.vue'),
   },
+  {
+    path: '/experimental',
+    name: 'Experimental',
+    component: () => import('../views/Experimental.vue'),
+  },
   // {
   //   path: '/project3',
   //   name: 'Project3',
