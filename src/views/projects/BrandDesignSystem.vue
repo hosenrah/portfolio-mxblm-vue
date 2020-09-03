@@ -2,7 +2,7 @@
   <main class="section-top dark" style="padding:0;">
   <section class="section-cover">
   <div class="video">
-    <video src="/assets/videos/browseLike.mp4" loop="loop"
+    <video src="../assets/videos/browseLike.mp4" loop="loop"
     playsinline autoplay="autoplay"></video>
   </div>
   </section>
@@ -13,7 +13,7 @@
       <span class="text-left">
         <h2 class="hl2">Task</h2>
         <p class="copy">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        Lorem ipsum dolor sit amet it, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
       </p>
