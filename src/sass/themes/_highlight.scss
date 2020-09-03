@@ -1,0 +1,6 @@
+@import '../general/colors';
+
+@mixin highlight {
+  background-color: $highlight;
+  color: $white;
+}

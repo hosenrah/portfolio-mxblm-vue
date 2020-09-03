@@ -9,6 +9,7 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: { transition: 'overlay-up-full' },
   },
   {
     path: '/about',

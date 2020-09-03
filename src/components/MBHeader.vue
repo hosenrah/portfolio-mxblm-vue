@@ -2,7 +2,7 @@
   <header class="mb-header dark">
     <nav class="mb-header__nav mb-header-nav">
     <router-link class="mb-header-nav__link" to="/work">Work</router-link>
-    <router-link class="mb-header-nav__logo" to="/">mxblm<span class="dot"></span></router-link>
+    <router-link class="mb-header-nav__logo" to="/"><span class="dot"></span></router-link>
     <router-link class="mb-header-nav__link" to="/about">About</router-link>
     </nav>
   </header>
@@ -19,6 +19,7 @@ export default {
 
 <style lang="scss">
 .mb-header-nav {
+  font-family: 'Soehne', sans-serif;
   font-size: 1.25rem;
   transition: all .5s;
 
@@ -27,21 +28,21 @@ export default {
     mix-blend-mode: difference;
     transition: all .5s;
 
-    font-family: 'Poppins', serif;
+    font-family: 'Soehne', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-decoration: none;
 
     &:hover{
       filter:blur(2px);
-      color: $red;
+      color: $highlight;
     }
   }
 
   &__link {
     color: $grey;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
     text-decoration: none;
 
     &:hover{
@@ -64,11 +65,12 @@ export default {
 }
 
 .dot {
-  height: 5px;
-  width: 5px;
-  background-color: $red;
-  border-radius: 0%;
+  height: 24px;
+  width: 24px;
+  background-color: $highlight;
+  border-radius: 50%;
   display: inline-block;
+  margin-left: 0.125rem;
 }
 
 .mb-header{
@@ -93,7 +95,7 @@ export default {
 @media only screen and (max-width: 500px) {
 
   .mb-header-nav__logo {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
   }
 
@@ -111,10 +113,9 @@ export default {
   }
 
   .dot {
-  height: 4px;
-  width: 4px;
-  background-color: $red;
-  border-radius: 0%;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
   display: inline-block;
 }
 

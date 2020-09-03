@@ -3,7 +3,7 @@
 
 @import 'themes/dark';
 @import 'themes/light';
-@import 'themes/red';
+@import 'themes/highlight';
 
 
 $base-font: 16px;
@@ -38,8 +38,8 @@ body {
   @include light;
 }
 
-.red {
-  @include red;
+.highlight {
+  @include highlight;
 }  
 
 .section-home, .section-text, .section-text-left, .section-text-right, .section-next {
@@ -65,12 +65,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
-}
-
-.project-image {
-  height: 100%;
-  opacity: 0;
-  margin-left: 12vw;
 }
 
 .section-text {
@@ -111,7 +105,6 @@ body {
   width: 100%;
   display: block;
   position: relative;
-  overflow: hidden;
   text-decoration: none;
   
   &:hover .project-label {
@@ -122,6 +115,24 @@ body {
     opacity: 1;
     transition: all .5s;
   }
+  &:hover .project-img {
+    opacity: 1;
+    transform: translate3d(calc(-100% + 8vw),-30%,0) rotate3d(0,0,0,0deg);
+    transition: all .5s;
+  }
+}
+
+.project-img {
+	pointer-events: none;
+	position: absolute;
+	height: 50vh;
+	max-height: 500px;
+  opacity: 0;
+	left: 80vw;
+  top: -25%;
+  z-index: 1;
+  transform: translate3d(calc(-100% + 16vw),-30%,0) rotate3d(0,0,0,0deg);
+  mix-blend-mode: difference;
 }
 
 .section-next {
@@ -268,5 +279,32 @@ video {
   }
   video {
     height: 50vh;
+  }
+
+.project-teaser {
+    height: 25vh;
+    width: 75%;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    
+    &:hover .project-label {
+      opacity: 1;
+    }
+    &:hover .project-img {
+      opacity: 1;
+      transform: translate3d(calc(-120%),20%,0) rotate3d(0,0,0,0deg);
+    }
+}
+
+  .project-img {
+    height: 15vh;
+    max-height: 500px;
+    opacity: 1;
+    transform: translate3d(calc(-120%),20%,0) rotate3d(0,0,0,0deg);
+    left: 98vw;
+    top: 0;
+    z-index: 1;
+    mix-blend-mode: difference;
   }
 }

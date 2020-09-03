@@ -20,13 +20,13 @@
   .link {
     color: $white;
     &:hover {
-      border-bottom: solid 2px $red;
+      border-bottom: solid 2px $highlight;
     }
   }
   .footer {
     a{
       &:hover{
-      color: $red;
+      color: $highlight;
       }
     }
   }

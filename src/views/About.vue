@@ -50,8 +50,8 @@
         </p>
       </span>
       </section>
-      <section class="section-next red">
-      <router-link class="project-next red" :to="{ name: 'Work' }">
+      <section class="section-next highlight">
+      <router-link class="project-next highlight" :to="{ name: 'Work' }">
         <div class="project-label">Discover my work
         </div>
       </router-link>

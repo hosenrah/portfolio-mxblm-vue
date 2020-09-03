@@ -1,10 +1,10 @@
 <template>
   <main class="section-home">
     <div class="section-home__content">
-      <div class="hlintro">MXBLM</div>
+      <div class="hlname">Max Blum</div>
     </div>
     <section class="section-video">
-    <video class="video-bg" src="../assets/videos/bg-loop.mp4"
+    <video class="video-bg" src="../assets/videos/intro-test.mp4"
     loop="loop" autoplay="autoplay"></video>
   </section>
   </main>

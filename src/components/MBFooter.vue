@@ -34,11 +34,12 @@ export default {
     margin-bottom: 0;
 
     &::selection {
-      background-color: $red;
+      background-color: $highlight;
     }
   }
 
   &__link {
+      font-family: 'Soehne', sans-serif;
       display: block;
       transition: all .5s;
       font-size: 1.25rem;
