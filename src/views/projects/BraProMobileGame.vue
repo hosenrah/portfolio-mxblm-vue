@@ -2,8 +2,8 @@
   <main class="section-intro light" style="padding:0;">
   <section class="section-cover">
     <div class="video">
-    <video src="https://wolffolins.cdn.prismic.io/wolffolins%2F94b08ad4-4a59-4483-986c-05ef36dda8ec_google_dots_loop_01.mp4" poster="https://images.prismic.io/wolffolins%2F66dd954c-131c-442d-bb47-61e58da8347a_google-dots.png?auto=compress,format"
-    loop="loop" playsinline="" autoplay="autoplay"></video>
+    <video src="/assets/videos/google_dots_loop_01.mp4" poster="https://images.prismic.io/wolffolins%2F66dd954c-131c-442d-bb47-61e58da8347a_google-dots.png?auto=compress,format"
+    loop="loop" playsinline autoplay="autoplay"></video>
     </div>
   </section>
     <section class="section-text light">

@@ -67,6 +67,13 @@ body {
   margin-bottom: 0;
 }
 
+.line {
+  width: 100%;
+  height: 1px;
+  opacity: .2;
+  z-index: 0;
+}
+
 .section-text {
   padding-top: 4rem;
   padding-bottom: 5rem;
@@ -101,11 +108,12 @@ body {
 }
 
 .project-teaser {
-  height: 25vh;
+  height: 21vh;
   width: 100%;
   display: block;
   position: relative;
   text-decoration: none;
+  padding-top: 6vh;
   
   &:hover .project-label {
     opacity: 1;
@@ -117,7 +125,7 @@ body {
   }
   &:hover .project-img {
     opacity: 1;
-    transform: translate3d(calc(-100% + 8vw),-30%,0) rotate3d(0,0,0,0deg);
+    transform: translate3d(calc(-100% + 8vw),-12%,0) rotate3d(0,0,0,0deg);
     transition: all .5s;
   }
 }
@@ -131,8 +139,7 @@ body {
 	left: 80vw;
   top: -25%;
   z-index: 1;
-  transform: translate3d(calc(-100% + 16vw),-30%,0) rotate3d(0,0,0,0deg);
-  mix-blend-mode: difference;
+  transform: translate3d(calc(-100% + 16vw),-12%,0) rotate3d(0,0,0,0deg);
 }
 
 .section-next {
@@ -282,11 +289,12 @@ video {
   }
 
 .project-teaser {
-    height: 25vh;
+    height: 15vh;
     width: 100%;
     display: block;
     position: relative;
     text-decoration: none;
+    padding-top: 4vh;
     
     &:hover .project-label {
       opacity: 1;

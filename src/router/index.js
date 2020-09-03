@@ -32,7 +32,7 @@ const routes = [
   {
     path: '/project1',
     name: 'Project1',
-    component: () => import('../views/projects/DesignSystemEvolution.vue'),
+    component: () => import('../views/projects/BrandDesignSystem.vue'),
   },
   {
     path: '/project2',

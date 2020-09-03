@@ -2,7 +2,8 @@
   <main class="section-top dark" style="padding:0;">
   <section class="section-cover">
   <div class="video">
-    <video src="https://d2kdkox9jtuwgl.cloudfront.net/cases/Masterclass/videos/browseLike.mp4" loop="loop" autoplay="autoplay"></video>
+    <video src="/assets/videos/browseLike.mp4" loop="loop"
+    playsinline autoplay="autoplay"></video>
   </div>
   </section>
     <section class="section-text dark">
@@ -74,7 +75,7 @@
 
 <script>
 export default {
-  name: 'DesignSystemEvolution',
+  name: 'BrandDesignSystem',
   props: {
     msg: String,
   },

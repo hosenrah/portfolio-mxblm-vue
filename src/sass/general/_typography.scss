@@ -63,7 +63,7 @@
   line-height: calc(1ex / 0.48);
   margin-top: 0;
   margin-bottom: 0;
-  width: 75%;
+  width: 80%;
   &::selection {
     background-color: $highlight;
   } 
@@ -163,7 +163,7 @@
     font-size: 1.125rem;
   }
   .project-label {
-    opacity: 1;
+    opacity: .5;
   
     &::after {
       opacity: 1;

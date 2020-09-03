@@ -50,6 +50,20 @@
         </p>
       </span>
       </section>
+      <section class="section-image">
+        <div class="line light"></div>
+      </section>
+      <section class="section-text" style="padding-top: 0;">
+        <p class="copy">
+          Hello dear world wide web. 👋🏻<br>
+          I'm Max Blum - I love to design digital products and brands. Mostly simple, with a clear
+          hierarchy and with a little touch of (e)motion.
+          <br><br>I offer 10 years of professional experience in the design of
+          user interfaces for digital applications and campaigns.
+          I am conceptually strong and responsive in my mind. My passion for
+          outstanding design drives me, photography and typography <a class="link" target="_blank" href="http://mxblm.tumblr.com">inspire</a> me.
+        </p>
+      </section>
       <section class="section-next highlight">
       <router-link class="project-next highlight" :to="{ name: 'Work' }">
         <div class="project-label">Discover my work

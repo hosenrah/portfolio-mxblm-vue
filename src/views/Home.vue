@@ -5,7 +5,8 @@
     </div>
     <section class="section-video">
     <video class="video-bg" src="../assets/videos/intro-test.mp4"
-    loop="loop" autoplay="autoplay"></video>
+    poster="/assets/images/intro-poster.jpg"
+    loop="loop" playsinline autoplay="autoplay"></video>
   </section>
   </main>
 </template>
