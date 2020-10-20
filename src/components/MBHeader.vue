@@ -35,7 +35,7 @@ export default {
     text-decoration: none;
 
     &:hover{
-      filter:blur(2px);
+      filter: blur(3px);
       color: $highlight;
     }
   }
@@ -46,6 +46,7 @@ export default {
     text-decoration: none;
 
     &:hover{
+      filter: blur(3px);
       color: $white;
       transition: all .5s;
     }

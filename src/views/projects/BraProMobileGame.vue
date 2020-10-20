@@ -2,7 +2,7 @@
   <main class="section-intro light" style="padding:0;">
   <section class="section-cover">
     <div class="video">
-    <video src="../assets/videos/google_dots_loop_01.mp4" poster="https://images.prismic.io/wolffolins%2F66dd954c-131c-442d-bb47-61e58da8347a_google-dots.png?auto=compress,format"
+    <video src="http://www.maxwebline.de/video/google_dots_loop_01.mp4"
     loop="loop" playsinline autoplay="autoplay"></video>
     </div>
   </section>

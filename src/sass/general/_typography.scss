@@ -138,6 +138,25 @@
   }
 }
 
+.next-label {
+  font-family: 'Soehne', sans-serif;
+  font-weight: 600;
+  font-size: 6vmin;
+  line-height: calc(1ex / 0.36);
+  opacity: 1;
+  margin-top: 0.25rem;
+  z-index: 3;
+
+  &::after {
+    content: "\2B62";
+    margin-left: 0.5rem;
+    opacity: 0;
+    z-index: 3;
+  }
+}
+
+
+
 @media only screen and (max-width: 700px) {
   .hlintro {
     font-size: 20vw;

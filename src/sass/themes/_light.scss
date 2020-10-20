@@ -12,10 +12,12 @@
     color: $black;
   }
   .copy {
-    color: $darkgrey;
+    color: $grey;
   }
   .link {
     color: $black;
+    border-bottom: solid 2px $black;
+    
     &:hover {
       border-bottom: solid 2px $highlight;
     }

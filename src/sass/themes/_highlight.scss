@@ -3,4 +3,17 @@
 @mixin highlight {
   background-color: $highlight;
   color: $black;
+
+  .hl1 {
+    color: $black;
+  }
+  .hl2 {
+    color: $black;
+  }
+  .hl3 {
+    color: $black;
+  }
+  .copy {
+    color: $black;
+  }
 }

@@ -2,7 +2,7 @@
   <main class="section-top dark" style="padding:0;">
   <section class="section-cover">
   <div class="video">
-    <video src="../assets/videos/browseLike.mp4" loop="loop"
+    <video src="http://www.maxwebline.de/video/browseLike.mp4" loop="loop"
     playsinline autoplay="autoplay"></video>
   </div>
   </section>
@@ -66,7 +66,7 @@
     </section>
     <section class="section-next light">
       <router-link class="project-next light" :to="{ name: 'Project2' }">
-        <div class="project-label">Next project
+        <div class="next-label">Next project
         </div>
       </router-link>
     </section>

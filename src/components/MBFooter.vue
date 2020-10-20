@@ -49,6 +49,7 @@ export default {
       text-decoration: none;
 
       &:hover{
+        filter: blur(3px);
         color: $white;
         transition: all .5s;
       }
